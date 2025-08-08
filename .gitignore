@@ -1,0 +1,42 @@
+# Entorno virtual
+.venv/
+env/
+venv/
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.pyd
+
+# Archivos temporales / logs
+*.log
+*.tmp
+*.temp
+
+# Archivos de configuración locales
+.python-version
+
+# Archivos de uv
+uv.lock
+
+# Capturas generadas por la app
+paper/*.png
+
+# Archivos de sistema / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Compilados / distribuciones
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Otros archivos no necesarios en repo
+*.swp
+*.swo
